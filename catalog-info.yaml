@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "kbrtestdoc"
+  annotations:
+    github.com/project-slug: jan-delaet-org/kbrtest-techdoc
+    backstage.io/kubernetes-id: "kbrtestdoc"
+    backstage.io/kubernetes-namespace: "kbrtestdoc"
+    backstage.io/kubernetes-cluster: aks-pe-poc-01
+    backstage.io/techdocs-ref: dir:.
+    azure.com/tag-selector: backstage-entity-id/kbrtestdoc
+spec:
+  type: service
+  owner: group:cloud-native
+  lifecycle: experimental
