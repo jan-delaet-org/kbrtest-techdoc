@@ -1,5 +1,5 @@
-site_name: 
-site_description: 
+site_name: kbrtest-techdoc
+site_description: Kbrtechdoc
 
 nav:
 - Introduction: index.md
