@@ -2,7 +2,7 @@ site_name: kbrtest-techdoc
 site_description: Kbrtechdoc
 
 nav:
-- Introduction: index.md
+- Introduction: readme.md
 
 plugins:
 - techdocs-core
